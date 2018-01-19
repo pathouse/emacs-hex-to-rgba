@@ -54,7 +54,7 @@
     (hex-to-rgba-convert6 hex-str)))
 
 (defun hex-to-rgba--format (rgba)
-  (format "rgba(%d,%d,%d,1)"
+  (format "rgba(%d, %d, %d, 1)"
           (cl-first rgba)
           (cl-second rgba)
           (cl-third rgba)))
